@@ -9,16 +9,14 @@
 }
   html{
    scroll-behavior: smooth;
-   background-color: #cbc3e3;
-  
+    background-color: #001f3f;
   }
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
 }
 
 .navbar {
-  background-color: blue;
+  background-color: teal;
   color: white;
   display: flex;
   align-items: center;
@@ -39,7 +37,6 @@ body {
   font-size: 40px;
   font-weight: bold;
   color: white;
-  
  text-transform: uppercase;
 }
 
@@ -70,45 +67,43 @@ body {
   text-decoration: none;
   font-size: 19px;
   font-weight: bold;
-  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
  .navbar-menu a:hover{
-  color: #ff7518;
+  color: #8CABFF;
   transition: 0.5s;
  }
 #home{
- 
-  height: 100vh;
-  width:100%;
+    background-color: #001f3f;
+    height: 100vh;
+    width:100%;
 
   
    }
     .img img{
-      width: 50%;
-      height: 800px;
+       margin: 150px 50px;
+      width: 40%;
+      height: 500px;
       cursor: pointer;
+      border-radius: 10px;
     }
 .name {
   position: absolute;
   top: 50%;
    left: 60%;
    font-size: 40px;
-  color: #9f2b68;
+  color: white;
    }
    .name h1{
     font-family:'Times New Roman', Times, serif;
      text-transform: capitalize;
      font-weight: bold;
-  }
-   .name span{
-    color: #de3163;
    }
 
 
 .newletter button{
   border-radius: 30px;
-  background-color: #ff7518;
+  background-color: teal;
   width: 400px;
   height: 40px;
   cursor: pointer;
@@ -118,9 +113,10 @@ body {
 
  }
     #about{
-     
+       background-color: #001f3f;
         height: 100vh;
           width:100%;
+          margin: -60px 0px;
         
      }
      #about img{
@@ -134,6 +130,7 @@ body {
        #about h2{
         font-size: 60px;
         margin: 40px 150px;
+        color: white;
 
        }
         #about p{
@@ -142,82 +139,137 @@ body {
           text-align: left;
           margin: 0 10%;
           cursor: pointer;
+          color: white;
         }
-        #services{
-          height: 100vh;
-          width:100%;
-         
-          background-size: cover;
-          background-position: center;
-           } 
-            #services h1{
-              font-size: 70px;
-              text-align: center;
-            }
-             #services .h h2{
-             font-size: 39px;
-             float: left;
-             margin: 0 20px;
-             
 
-             }
-             #services  .k h2{
-              font-size: 39px;
-              float: right;
-              text-align: center;
-             }
-              #services .text1 h3{
-                float: left;
-                width: 600px;
-                margin: 5px;
-                margin-right: 60%;
-                text-align: center;
-              }
-               #services .text2 h3{
-                float: right;
-                width: 600px;
-              
-               margin-top: -20%;
-              }
-               #services .ram img{
-                margin: 20px;
-               }
-         #services .harish img{ 
-            float: right;
-            width: 40%;
-            height: 270px;
-            margin-top: -20%;
-}
+     #services{
+      background-color: #001f3f;
+      height: 100vh;
+      width:100%;
+     }
+       #services h1{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+       }
+
+        #services h2{
+          color: white;
+          font-size: 30px;
+        }
+         #services .wrapper{
+          display: flex;
+         position: relative;
+          margin: 0 230px;
+         
+         }
+           #services .box{
+             text-align: center;
+              background-color: teal;
+              width: 250px;
+              height: 190px;
+               border-radius: 10px;
+                margin: 0 50px;
+           }
+           #services .box-2{
+            background-color: teal;
+            width: 250px;
+            text-align: center;
+
+            height: 190px;
+             border-radius: 10px;
+            margin: 0 50px;
+         }
+         #services .box-3{
+          text-align: center;
+
+          background-color: teal;
+          width: 250px;
+          height: 190px;
+           border-radius: 10px;
+           margin: 0 50px;
+       }
+      
+         #skills{
+          background-color: #001f3f;
+      height: 100vh;
+      width:100%;
+         }
+      #skills h1{
+        text-align: center;
+        font-size: 60px;
+        color: white;
+      }
+      #skills .wrapper-2{
+        display: flex;
+       position: relative;
+        margin: 0 230px;
+        
+       
+       }
+        #skills h2{
+          color: white;
+          text-align: center;
+        }
+        #skills li{
+          font-size: 28px;
+        }
+         #skills .skill-1{
+           text-align: center;
+            background-color: teal;
+            width: 250px;
+            height: 190px;
+          
+             border-radius: 10px;
+              margin: 0 50px;
+         }
+         #skills .skill-2{
+          background-color: teal;
+          width: 250px;
+          text-align: center;
+
+          height: 190px;
+           border-radius: 10px;
+          margin: 0 50px;
+       }
+       #skills .skill-3{
+        text-align: center;
+
+        background-color: teal;
+        width: 250px;
+        height: 190px;
+         border-radius: 10px;
+         margin: 0 50px;
+     }
+       
 
                #contact{
-                 overflow: hidden;
+                background-color: #001f3f;
                 height: 100vh;
                 width:100%;
-               
-                background-size: cover;
-                background-position: center;
                }
                #contact h1{
+                color: white;
                 font-size: 50px;
                 text-align: center;
                }
                 #contact h2{
+                  color: white;
                   width: 900px;
                   font-size: 30px;
                   margin: 0 auto;
 
                 }
                 #contact img{
-                  margin:0 200px;
+                    position: relative;
+                     margin-left: 250px;
+                   margin-right: 150px;
+                   align-items: center;
                    justify-content: center;
                     width: 40px;
                     height: 40px;
                  }
-                 #contact img:hover{
-                  color: #ff7518;
-                  transition: 0.5s;
-
-                 }
+                
 
 @media (max-width: 450px) {
     .navbar-menu {
@@ -228,7 +280,7 @@ body {
       left: 0;
       height: 100vh;
       width: 140px;
-      background-color: blue;
+      background-color: teal;
       padding: 10px;
        
   }
@@ -260,53 +312,67 @@ body {
       .name .newletter button{
         width: 200px;
       }
-       #home img{
-       width: 400px;
-       height: 400px;
-       margin: 300px -40px;
-       }
-      
-   #about{
-    top: 10%;
+    #home img{
+      margin: 350px 50px;
+       height: 200px;
+       width: 200px;
+    
    }
     #about h2{
       margin: 0 10px;
     }
     #about img{
+    
       width: 200px;
       height: 200px;
     }
      #about p{
       width: 300px;
      }
-      #services{
-          margin: 200px  -5px;
+          #services{
+             margin: 100px -250px;
+          }
+           #services h1{
+            margin-left: 300px;
+           }
+     #services .wrapper{
+      display: inline-block;
+       
+     }
+   
+      #services .box{
+        margin: 30px;
       }
-      #services .text1 h3{
-        width: 250px;
-        text-align: left;
-        margin: 50px  20px;
+      #services .box-2{
+        margin: 30px;
       }
-       #services .text2 h3{
-        width: 300px;
-        margin: 10px;
+      #services .box-3{
+        margin: 30px;
+      }
+
+
+       #skills .wrapper-2{
+         display: inline-block;
        }
-       #services .harish img{
-        margin: 0 40px;
-        width: 250px;
-       }
-       #services .ram img{
-        width: 250px;
-       }
+       #skills .skill-1{
+        margin: 30px -190px;
+      }
+      #skills .skill-2{
+        margin: 30px -190px;
+      }
+      #skills .skill-3{
+        margin: 30px -190px;
+      }
+
        #contact h2{
         width: 300px;
        }
        #contact{
-        height: 900px;
+        margin: 90px -6px;
        }
        #contact img{
-        margin: 0 auto;
-        justify-content: space-between;
+        margin: 0 32px;
+        
        }
 
       
@@ -318,19 +384,56 @@ body {
 
  @media only screen and (orientation: landscape) {
   
-  #services h3{
-    width: 600px;
-  }
-   #contact{
-    height: 800px;
-    position: relative;
+   .name button{
+    margin: -50px;
    }
-   #contact h2 {
-    width: 600px;
-    padding:  50px;
-    
+   .img img{
+    width: 160px;
+    height: 170px;
    }
-    .name{
-      height: 400px;
+    #about{
+      margin: 50px;
     }
+     #about img{
+      width: 170px;
+      height: 170px;
+      margin: 25px 60px;
+     }
+      #services{
+        margin: 170px -60px;
+ 
+      }
+       #services .wrapper{
+        display: inline-block;
+       }
+       #services .box{
+        margin: 30px;
+      }
+      #services .box-2{
+        margin: 30px;
+      }
+      #services .box-3{
+        margin: 30px;
+      }
+   #skills{
+    margin: 420px -60px;
+   }
+   #skills .wrapper-2{
+    display: inline-block;
+  }
+  #skills .skill-1{
+   margin: 30px 60px;
  }
+ #skills .skill-2{
+   margin: 30px 60px;
+ }
+ #skills .skill-3{
+   margin: 30px 60px;
+ }
+  #contact img{
+    display: flexbox;
+    margin: 0 85px;
+  }
+        
+ }
+
